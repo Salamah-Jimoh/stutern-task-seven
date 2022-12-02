@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 18px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+button{
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+button:hover{
+    background-color: gray;
+}
+.blue{
+    width:100%;
+    color:white;
+    background-color: rgb(26, 26, 159);
+    padding:.5rem;
+}
+.blue p{
+    text-align: center;
+}
+.blue span{
+    margin-left:30rem;
+    font-size: 20px;
+}
+/**Menu**/
+.menu{
+    margin:1rem;
+    display:flex;
+}
+.menu img{
+    width:7%;
+}
+.menu a{
+    margin-left:3rem;
+    color:black;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.menu input{
+    background-color: rgb(236, 236, 236);
+    border-radius:25px;
+    padding:1rem;
+    outline:none;
+    border:1px solid black;
+    width:450px;
+    color:lightgray;
+}
+.menu input::placeholder{
+    text-align: center;
+}
+.fontuser {
+    position: relative;
+    margin-left: 1rem;
+}
+  
+.fontuser i{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color:lightgray;
+}
+.log{
+    border:1px solid black;
+    font-weight: 700;
+    margin-left: .7rem;
+    background-color:white;
+    width:75px;
+}
+.up{
+    color:white;
+    background-color: black;
+    border: none;
+}
+.menu i{
+text-align: center;
+width:36px;
+display: grid;
+place-items: center;
+}
+
+/**Slide**/
+.slide{
+    background-image: url('/img/bg-header.jpg');
+    background-position:center top ;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.text{
+    background-color: white;
+    width:400px;
+    margin-left: 7rem;
+    margin-top:7rem;
+    position: absolute;
+    padding: 1rem;
+}
+.text h1{
+    margin:1rem;
+}
+.text a{
+    text-decoration: underline;
+    color:blue;
+}
+/**Broad**/
+.broad{
+    margin-top:2rem;
+}
+.broad h1, .broad p, .course-links{
+    margin-left:.6rem;
+}
+.broad p{
+    font-size: 20px;
+    margin: 1rem;
+}
+.course-links a{
+    color:gray;
+    font-size: 20px;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+/**Expand**/
+.expand{
+    border:1px solid grey;
+    margin:1rem;
+}
+.expand h2{
+   margin-top:1.5rem;
+   margin-left:.6rem;
+}
+.expand p{
+    margin-top:1.5rem;
+    margin-left:.7rem;
+    width:60%;   
+}
+.expand button{
+    color:black;
+    border:1px solid black;
+    width:150px;
+    height:45px;
+    margin:1rem;
+    font-weight: 800;
+    background-color: white;
+}
+.image{
+    display:flex;
+    margin-top:1rem;
+}
+.image h2{
+    font-size: 18px;
+}
+.image p{
+    color:grey;
+    margin-top:.5rem;
+    font-size: 15px;
+}
+.rate{
+    display:flex;
+}
+
+.rate i{
+    color:rgb(201, 173, 15);
+    font-size: 10px;
+}
+.yel{
+    color:rgb(201, 173, 15);
+    font-weight: bold;
+}
+.big{
+    font-size: 20px;
+    font-weight: 800;
+    color:black !important;
+}
+.best{
+    width:75px;
+    height:27px;
+    background-color: rgb(199, 199, 83, .7);
+    margin: .4rem;
+    font-size: 14px;
+    text-align: center;
+}
+.learn{
+    margin-top:3rem;
+    padding: 1rem;
+    display: flex;
+    background-color: rgb(251, 248, 248);
+    
+}
+.starr{
+    flex:1;
+    display: flex;
+}
+.starr h3{
+    font-size: 19px;
+}
+.starr i{
+    background-color: rgb(228, 227, 227);
+    border-radius: 100%;
+    padding:.5rem;
+    margin-left:1rem;
+}
+/*Students**/
+.students h2{
+    margin-top:1.5rem;
+   margin-left:.6rem;
+}
+/*Feauture**/
+.feauture{
+    margin-top:3rem;
+    background-color: rgb(250, 250, 250);
+}
+.feauture h2{
+    margin:2rem;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.col{
+    margin:1.5rem;
+}
+.col h3, .col a, .col p{
+    margin:1rem;
+}
+.col a{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.feat{
+    color:black;
+    border:1px solid black;
+    width:160px;
+    height:45px;
+    margin:1rem;
+    font-weight: 800;
+}
+/**brands*/
+.trust{
+    margin-top:2rem;
+   text-align: center;
+}
+.brands{
+    margin-top:1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+/**bix*/
+.biz, .instruct{
+margin:3rem;
+display:flex;
+height: 450px;
+}
+
+
+.biz-text{
+    margin-top:5rem;
+    margin-left: 5rem;
+    font-size: 20px;
+}
+.biz-text h2, .biz-text ul, .biz-text button{
+margin-top:2rem;
+}
+.biz-text li{
+    margin-top: 1rem;
+}
+.biz-text button{
+    width:150px;
+    padding: .7rem;
+}
+/*Footer**/
+footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin:1rem;
+}
+.one a{
+    color:white;
+    margin-top:.5rem;
+    font-size: 16px;   
+}
+.dd{
+    width:30%;
+    margin-top: 4rem;
+    color:white;
+    }
+    .eng{
+       border:1px solid white;
+       font-style: normal;
+       font-size: 15px;
+       width:100px;
+       height:30px;
+       margin-left: 10rem;
+       padding: .5rem;
+    }
+
